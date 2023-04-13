@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Storage" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mantis</item>
+        <item name="colorPrimaryVariant">@color/forest_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/persian_red</item>
+        <item name="colorSecondaryVariant">@color/auburn</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Button.Default" parent="Theme.Storage">
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:fontFamily">@font/comfortaa_bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextInput.Layout.Login" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="boxStrokeColor">@color/input_box_stroke_default</item>
+        <item name="endIconTint">@color/white</item>
+    </style>
+</resources>
