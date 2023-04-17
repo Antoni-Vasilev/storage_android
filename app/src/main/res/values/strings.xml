@@ -8,4 +8,6 @@
     <string name="right_arrow">-></string>
     <string name="welcome">Welcome</string>
     <string name="username">Username</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="submit">Submit</string>
 </resources>

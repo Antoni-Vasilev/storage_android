@@ -42,7 +42,8 @@ public class LoginActivity extends AppCompatActivity {
     private RelativeLayout btnLogin;
     private TextView btnLoginText;
     private ProgressBar btnLoginProgress;
-    private LinearLayout btnRegister;
+    private TextView btnRegister;
+    private TextView btnForgotPassword;
 
     private int btnWidth;
 
@@ -51,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        setTransparentStatusBar();
+//        setTransparentStatusBar();
         init();
 
         new Thread(() -> {
@@ -76,9 +77,11 @@ public class LoginActivity extends AppCompatActivity {
         btnLoginText = findViewById(R.id.btnLoginText);
         btnLoginProgress = findViewById(R.id.btnLoginProgress);
         btnRegister = findViewById(R.id.btnRegister);
+        btnForgotPassword = findViewById(R.id.btnForgotPassword);
 
         btnLogin.setOnClickListener(it -> login());
         btnRegister.setOnClickListener(it -> Navigation.toRegister(this, Navigation.NONE));
+        btnForgotPassword.setOnClickListener(it -> Navigation.toForgotPassword(this, Navigation.NONE));
     }
 
     private void login() {
