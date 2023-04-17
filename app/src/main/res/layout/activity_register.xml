@@ -7,9 +7,7 @@
     android:background="@drawable/register_background"
     android:gravity="bottom|center"
     android:orientation="vertical"
-    android:paddingStart="20dp"
-    android:paddingEnd="20dp"
-    android:paddingBottom="60dp"
+    android:padding="20dp"
     tools:context=".activity.RegisterActivity">
 
     <LinearLayout
@@ -164,8 +162,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/manrope_regular"
-            android:text="->"
             android:rotationY="180"
+            android:text="->"
             android:textColor="@color/white"
             android:textSize="18sp"
             tools:ignore="HardcodedText" />

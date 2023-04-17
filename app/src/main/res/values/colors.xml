@@ -4,7 +4,11 @@
     <color name="forest_green">#52933c</color>
     <color name="persian_red">#D52B2B</color>
     <color name="auburn">#a22020</color>
-    <color name="dark_green">#1B230F</color>
+
+    <color name="eerie_black">#202315</color>
+    <color name="lapis_lazuli">#546892</color>
+    <color name="jet">#292D28</color>
+    <color name="night">#0E100F</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>

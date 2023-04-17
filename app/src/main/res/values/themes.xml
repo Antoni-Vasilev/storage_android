@@ -29,7 +29,17 @@
     </style>
 
     <style name="Layout.Login" parent="Theme.Storage">
-        <item name="android:statusBarColor">@color/dark_green</item>
+        <item name="android:statusBarColor">@color/eerie_black</item>
         <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="Layout.Register" parent="Theme.Storage">
+        <item name="android:statusBarColor">@color/lapis_lazuli</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="Layout.ForgotPassword" parent="Theme.Storage">
+        <item name="android:statusBarColor">@color/jet</item>
+        <item name="android:navigationBarColor">@color/night</item>
     </style>
 </resources>
